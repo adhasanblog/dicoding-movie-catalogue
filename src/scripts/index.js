@@ -1,8 +1,8 @@
 import 'regenerator-runtime';
 import '../styles/style.css';
 import '../styles/responsive.css';
+import '../styles/b070c8f1df.css';
 import App from './views/app';
-import './utils/fontawesome-love';
 import swRegister from './utils/sw-register';
 import WebSocketInitiator from './utils/websocker-initiator';
 import CONFIG from './globals/config';
