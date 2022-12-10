@@ -5,7 +5,7 @@ const WebSocketInitiator = {
   init(url) {
     const webSocket = new WebSocket(url);
 
-    webSocket.onmessage = this._onMessageHandler();
+    webSocket.onmessage = this._onMessageHandler(message);
   },
 
   _onMessageHandler(message) {
